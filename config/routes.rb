@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root "pages#index"
+  root "posts#index"
+  resources :posts
   resources :pages
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
