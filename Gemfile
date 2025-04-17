@@ -39,10 +39,8 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
   
-  gem "faker", "~> 3.5"
 end
 
-
-
+gem "faker", "~> 3.5"
 
 gem "rails-controller-testing", "~> 1.0"
