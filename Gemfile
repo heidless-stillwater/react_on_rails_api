@@ -41,6 +41,6 @@ group :development, :test do
   
 end
 
-gem "faker", "~> 3.5"
+gem "faker", "~> 3.6"
 
 gem "rails-controller-testing", "~> 1.0"
